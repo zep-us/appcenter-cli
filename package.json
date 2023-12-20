@@ -32,7 +32,8 @@
     "compile": "gulp build:raw",
     "prepublishOnly": "npm run lint && gulp prepublish",
     "download-swagger": "gulp download-swagger",
-    "prettier": "prettier --write \"**/*.+(js|ts)\""
+    "prettier": "prettier --write \"**/*.+(js|ts)\"",
+    "prepare": "gulp prepublish"
   },
   "repository": {
     "type": "git",
